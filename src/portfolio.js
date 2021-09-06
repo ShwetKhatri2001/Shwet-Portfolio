@@ -21,16 +21,11 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1ZURvvWzELE3pSHjXCKSuhQq35oFjPMwk/view?usp=sharing",
   portfolio_repository: "https://github.com/ShwetKhatri2001/Shwet-Portfolio",
 };
 
 const socialMediaLinks = [
-  
-  // github: "https://github.com/ShwetKhatri2001",
-  // linkedin: "https://www.linkedin.com/in/shwet-khatri-4ab216196/",
-  // gmail: "shwetkhatri2001@gmail.com",
-
   {
     name: "Github",
     link: "https://github.com/ShwetKhatri2001",
@@ -54,14 +49,12 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
-    softwareSkills: [
      {
       title: "Full Stack Web Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Creating application backend in Node & Express",
+        "⚡ Building resposive front end using NextJs, React-Redux",
+        "⚡ Creating backend in Firebase, Node & Express",
       ],
       softwareSkills: [
         {
@@ -171,7 +164,6 @@ const skills = {
         },
       ],
     }]
-  }]
 };
 
 const competitiveSites = {
@@ -184,6 +176,15 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/Shwetkhatri",
     },
+    {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#FFA116",
+      },
+      profileLink: "https://leetcode.com/ShwetKhatri/"
+
+    }
   ],
 };
 
@@ -192,7 +193,7 @@ const degrees = {
     {
       title: "The LNM Institute of Information Technology, Jaipur",
       subtitle: "M.Tech in Computer Science and Engineering",
-      logo_path: "iiitk_logo.png",
+      logo_path: "lnmiit_logo.png",
       alt_name: "LNMIIT Jaipur",
       duration: "2019 - Present",
       descriptions: [
@@ -247,7 +248,7 @@ const experience = {
           title: "Internships",
           experiences: [
             {
-              title: "Full Stack Web Developer - Intern",
+              title: "Full Stack Web Developer Intern",
               company: "WedMePlz",
               company_url: "https://wedmeplz.com/",
               logo_path: "delhivery_logo.png",
@@ -275,14 +276,25 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Open Source Contributor - LGMSOC",
-          company: "LetsGrowMore",
-          company_url: "http://letsgrowmore.in/",
+          title: "Open Source Contributor - Devincept 30-Days Contribution Program",
+          company: "Devincept",
+          company_url: "https://devincept.com/",
           logo_path: "legato_logo.png",
           duration: "June 2021 - Aug 2021",
           location: "Remote",
           description:
-            "One of the Top contributors in LetsGrowMore SummerOfCode contributing to open source projects provided by LetsGrowMoreCommunity ",
+            "Ranked 4th / 2000 contributurs contributing to open source project provided by Devincept in full stack development",
+          color: "#0879bf",
+        },
+        {
+          title: "Open Source Contributor - LGMSOC",
+          company: "LetsGrowMore",
+          company_url: "http://letsgrowmore.in/",
+          logo_path: "legato_logo.png",
+          duration: "July 2021 - Aug 2021",
+          location: "Remote",
+          description:
+            "Ranked 9th / 4000  contributors in LetsGrowMore SummerOfCode contributing to open source projects provided by LetsGrowMoreCommunity ",
           color: "#0879bf",
         },
       ],
@@ -307,7 +319,7 @@ const experience = {
           company_url: "https://letsupgrade.in/",
           logo_path: "microsoft_logo.png",
           duration: "Nov 2019 - Dec 2020",
-          location: "Hyderabad, Telangana",
+          location: "Remote",
           description:
             "Campus ambassador writing tech blogs , organising workshops and working on their personal projects.",
           color: "#D83B01",
@@ -324,26 +336,19 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
-
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "shwet_khatri.png",
     description:
       "I am available on many social media platforms. Feel free to message me, I will reply within 24 hours. I can help you with  React, Node and Opensource Development.",
   },
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+      "A/1 Rajapark Duplex, Padra, Vadodara, Gujarat - 391440",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/CXJC5FM8XsEhL1856",
   },
   phoneSection: {
     title: "Phone Number",
@@ -362,6 +367,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
   contactPageData,
 };

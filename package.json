@@ -1,5 +1,7 @@
 {
   "name": "shwetportfolioapp",
+  "homepage": "https://ShwetKhatri2001.github.io",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
