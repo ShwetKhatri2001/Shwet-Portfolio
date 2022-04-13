@@ -8,6 +8,17 @@
 		{
 			"title": "Internships",
 			"experiences": [
+				{
+					"title": "Software Developer Intern",
+					"company": "CloudBloq",
+					"company_url": "https://cloudbloq.io/",
+					"logo_path": "delhivery_logo.png",
+					"duration": "Feb 2021 - Apr 2021",
+					"location": "Remote",
+					"description":
+						"Worked on their next service - Innerloop ( media management portal ). Added new features such as Content management, Story creation from content, User dashboard etc using ReactJS, SCSS, NodeJS and Azure services. ",
+					"color": "#ee3c26"
+				},
 			  {
 				"title": "Full Stack Web Developer - Intern",
 				"company": "WedMePlz",

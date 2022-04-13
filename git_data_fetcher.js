@@ -1,9 +1,9 @@
   
   const openSource = {
-    githubConvertedToken: precess.env.github_personal_access_token,
+    githubConvertedToken: "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",
     githubUserName: "ShwetKhatri2001",
   };
-  
+  console.log(openSource.githubConvertedToken);
   import fetch from "node-fetch";
   import fs from "fs";
   

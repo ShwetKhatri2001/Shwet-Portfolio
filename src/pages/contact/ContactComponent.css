@@ -37,6 +37,10 @@
   justify-content: center;
 }
 
+.contact-heading-img{
+  margin-left: 25%;
+}
+
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;
@@ -142,6 +146,12 @@
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;
+  }
+  .contact-heading-img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
   }
 
   .blog-heading-text {
