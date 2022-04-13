@@ -4,6 +4,14 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -33,12 +41,6 @@
     "styletron-engine-atomic": "^1.4.8",
     "styletron-react": "^6.0.2",
     "web-vitals": "^1.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
