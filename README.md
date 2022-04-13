@@ -1,4 +1,4 @@
-#[Shwet's Portfolio](https://shwetkhatri.netlify.app)
+# [Shwet's Portfolio](https://shwetkhatri.netlify.app)
 
 # Getting Started with Create React App
 
