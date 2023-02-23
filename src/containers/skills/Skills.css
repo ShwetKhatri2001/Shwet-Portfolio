@@ -12,6 +12,7 @@
 
 .skills-text {
   font-size: 20px;
+  line-height: 2rem;
 }
 
 .skills-text-div {
@@ -31,7 +32,7 @@
 }
 
 .skills-heading {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 400;
   font-family: "Google Sans Regular";
   line-height: normal;
@@ -45,9 +46,6 @@
   .skills-header {
     font-size: 50px;
   }
-  /* .skills-image-div > img {
-    margin-top: 0px;
-  } */
 }
 @media (max-width: 768px) {
   .skills-heading {
@@ -70,6 +68,7 @@
   }
   .skills-text {
     font-size: 16px;
+    line-height: 1.75rem;
   }
   .skills-text-subtitle {
     font-size: 16px;
