@@ -23,7 +23,7 @@ class CertificationCard extends Component {
                 <img
                   className="logo_img"
                   src={
-                    require(`../../assests/images/${certificate.logo_path}`)
+                    require(`../../assets/images/${certificate.logo_path}`)
                       .default
                   }
                   alt={certificate.alt_name}
