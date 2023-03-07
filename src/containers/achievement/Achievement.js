@@ -1,10 +1,9 @@
 import React from "react";
 import "./Achievement.css";
-import AchivementCard from "../../components/achievementCard/AchivementCard";
+import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { achievementSection } from "../../portfolio";
 
 export default function Achievement() {
- 
   return (
     <div className="main" id="achievements">
       <div className="achievement-main-div">
@@ -17,9 +16,9 @@ export default function Achievement() {
           </p>
         </div>
         <div className="achievement-cards-div">
-          {achievementSection.achivementsCards.map((card) => {
+          {achievementSection.achievementsCards.map((card) => {
             return (
-              <AchivementCard
+              <AchievementCard
                 cardInfo={{
                   title: card.title,
                   description: card.subtitle,

@@ -1,5 +1,5 @@
 .projects-main {
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
@@ -33,7 +33,7 @@
 .projects-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
@@ -41,7 +41,7 @@
 
 .projects-heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -49,21 +49,12 @@
 .projects-header-detail-text {
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
-}
-.publications-heading-text-div {
-  text-align: center;
-  font-family: "Google Sans Regular";
-  margin-top: 70px;
+  font-family: "Google Sans Medium", serif;
 }
 
-.publications-heading-text {
-  font-size: 56px;
-  font-weight: 600;
-}
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -84,8 +75,7 @@
 }
 
 @media (max-width: 768px) {
-  .projects-heading-text,
-  .publications-heading-text {
+  .projects-heading-text {
     font-size: 30px;
     margin-top: 20px;
   }
@@ -100,8 +90,8 @@
 
   .projects-header-detail-text {
     font-size: 16px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
     line-height: normal;
     text-align: center;
   }

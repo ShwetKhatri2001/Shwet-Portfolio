@@ -6,11 +6,11 @@
   line-height: 1.1;
   width: max-content;
   padding: 13px 22px;
-  margin-right: 0px;
+  margin-right: 0;
   border-radius: 6px;
   text-align: center;
   text-decoration: none;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   display: block;
   margin-top: 20px;
   font-size: 18px;
@@ -25,12 +25,12 @@
   justify-content: center;
   margin-top: 20px;
 }
-
+/* Media Query */
 @media (max-width: 768px) {
   .main-button {
     font-size: 15px;
     padding: 12px 18px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 @media (max-width: 320px) {

@@ -23,20 +23,24 @@ export default function TopButton({ theme }) {
   };
 
   const onMouseEnter = (color, bgColor) => {
+    /* For the button */
     const topButton = document.getElementById("topButton");
     topButton.style.color = color;
     topButton.style.backgroundColor = bgColor;
 
+    /* For arrow icon */
     const arrow = document.getElementById("arrow");
     arrow.style.color = color;
     arrow.style.backgroundColor = bgColor;
   };
 
   const onMouseLeave = (color, bgColor) => {
+    /* For the button */
     const topButton = document.getElementById("topButton");
     topButton.style.color = color;
     topButton.style.backgroundColor = bgColor;
 
+    /* For arrow icon */
     const arrow = document.getElementById("arrow");
     arrow.style.color = color;
     arrow.style.backgroundColor = bgColor;
@@ -55,7 +59,7 @@ export default function TopButton({ theme }) {
       onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
       onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
     >
-      <i class="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      <i class="fas fa-chevron-circle-up" id="arrow" aria-hidden="true" />
     </div>
   );
 }

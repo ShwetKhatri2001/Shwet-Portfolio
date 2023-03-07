@@ -16,7 +16,7 @@ const seo = {
 const greeting = {
   title: "Shwet Khatri",
   logo_name: "ShwetKhatri",
-  nickname: "shwetkhatri",
+  nickname: "Web & Open Source Developer",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -200,7 +200,7 @@ const degrees = {
   degrees: [
     {
       title: "The LNM Institute of Information Technology, Jaipur",
-      subtitle: "M.Tech in Computer Science and Engineering",
+      subtitle: "B.Tech + M.Tech in Computer Science and Engineering",
       logo_path: "lnmiit_logo.png",
       alt_name: "LNMIIT Jaipur",
       duration: "2019 - Present",
@@ -364,9 +364,16 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "shwet_khatri.png",
+    profile_image_path: "shwetphoto.png",
     description:
       "I am available on many social media platforms. Feel free to message me, I will reply within 24 hours. I can help you with  React, Node and Opensource Development.",
+  },
+  blogSection: {
+    title: "Blogs",
+    subtitle:
+      "I write blogs about my learnings, tips and eperiences on different tech platforms and help beginners in their development journey.",
+    link: "https://medium.com/@shwetkhatri",
+    avatar_image_path: "choice.svg",
   },
   addressSection: {
     title: "Address",

@@ -1,30 +1,27 @@
 import React from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactPageData } from "../../portfolio";
+import { contactInfo } from "../../portfolio";
 
 export default function Contact() {
-
-  const { contactSection , addressSection, phoneSection} = contactPageData;
-
   return (
     <div className="main contact-margin-top" id="contact">
       <div className="contact-div-main">
         <div className="contact-header">
-          <h1 className="heading contact-title">{contactSection.title}</h1>
-          <p className="subTitle contact-subtitle">{contactSection.subtitle}</p>
+          <h1 className="heading contact-title">{contactInfo.title}</h1>
+          <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
 
           <div className="contact-text-div">
-            <a className="contact-detail" href={"tel:" + phoneSection.number}>
-              {phoneSection.number}
+            <a className="contact-detail" href={"tel:" + contactInfo.number}>
+              {contactInfo.number}
             </a>
             <br />
             <br />
             <a
               className="contact-detail-email"
-              href={"mailto:" + phoneSection.email_address}
+              href={"mailto:" + contactInfo.email_address}
             >
-              {phoneSection.email_address}
+              {contactInfo.email_address}
             </a>
             <br />
             <br />
@@ -33,9 +30,9 @@ export default function Contact() {
         </div>
         <div className="contact-image-div">
           <img
-            alt="Shwet Working"
-            src={require("../../assests/images/contactMail.png")}
-          ></img>
+            alt="Contact"
+            src={require("../../assets/images/contactMail.png")}
+          />
         </div>
       </div>
     </div>

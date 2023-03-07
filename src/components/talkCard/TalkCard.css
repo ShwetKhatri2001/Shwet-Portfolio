@@ -3,6 +3,7 @@
   justify-content: center;
 }
 
+/* Rectangle Card Layout */
 .rectangle {
   background: url(..\..\assests\images\talksCardBack.svg);
   width: 380px;
@@ -24,6 +25,7 @@
   position: absolute;
 }
 
+/* Card  Styling */
 .talk-card-title {
   color: white;
   margin: auto;
@@ -68,6 +70,7 @@
   justify-content: space-around;
 }
 
+/* Media Query */
 @media (max-width: 1380px) {
   .card-title {
     font-size: 25px;

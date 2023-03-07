@@ -3,7 +3,7 @@
 }
 
 .accord-panel {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 @media (max-width: 768px) {

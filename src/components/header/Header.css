@@ -1,9 +1,10 @@
+/* header */
 
 .header {
   display: block;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .header ul {
@@ -11,6 +12,7 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
+  /* background-color: #fff; */
 }
 .grey-color {
   color: #868e96;
@@ -19,7 +21,13 @@
 .header li a {
   display: block;
   padding: 20px 20px;
+  /* color: black; */
   text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  /* background-color: #A6E1FA; */
 }
 
 .header .logo {
@@ -31,13 +39,16 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Agustina Regular", serif;
   font-weight: bold;
   padding: 0 10px;
+  /* color: #55198b; */
 }
 
+/* menu */
+
 .menu {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .header .menu {
@@ -46,9 +57,12 @@
   transition: max-height 0.2s ease-out;
 }
 
+/* menu icon */
+
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
+  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -82,6 +96,7 @@
   top: -5px;
 }
 
+/* menu btn */
 
 .header .menu-btn {
   display: none;
@@ -108,6 +123,7 @@
   top: 0;
 }
 
+/* 48em = 768px */
 
 @media (min-width: 48em) {
   .header li {

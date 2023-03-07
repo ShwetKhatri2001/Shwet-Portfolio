@@ -1,5 +1,5 @@
 .experience-main {
-  width: 100%;
+  width: 100vw;
 }
 
 .basic-experience {
@@ -32,7 +32,7 @@
 .experience-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   line-height: 1.1;
   text-align: center;
   margin-top: 80px;
@@ -40,7 +40,7 @@
 
 .experience-heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -48,10 +48,10 @@
 .experience-header-detail-text {
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
 }
 
 @media (max-width: 1380px) {
@@ -80,7 +80,7 @@
 
   .experience-header-detail-text {
     font-size: 16px;
-    margin-right: 0px;
+    margin-right: 0;
     line-height: normal;
     text-align: center;
   }

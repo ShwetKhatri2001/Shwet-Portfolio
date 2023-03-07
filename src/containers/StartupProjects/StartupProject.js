@@ -21,12 +21,12 @@ export default function StartupProject() {
                   className="saaya-health-div"
                   onClick={() => openProjectInNewWindow(project.link)}
                 >
-                  <img alt="Saad Working" src={project.image}></img>
+                  <img alt="Saad Working" src={project.image} />
                 </div>
               );
             })}
           </div>
-          <div className="starup-project-image"></div>
+          <div className="starup-project-image" />
         </div>
       </div>
     </div>

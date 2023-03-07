@@ -19,46 +19,46 @@ export default function Projects() {
       request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`,
-          },
+            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`
+          }
         });
-      },
+      }
     });
 
     client
-      .query({
-        query: gql`
+    .query({
+      query: gql`
           {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
+              repositoryOwner(login: "${openSource.githubUserName}") {
+                  ... on User {
+                      pinnedRepositories(first: 6) {
+                          edges {
+                              node {
+                                  nameWithOwner
+                                  description
+                                  forkCount
+                                  stargazers {
+                                      totalCount
+                                  }
+                                  url
+                                  id
+                                  diskUsage
+                                  primaryLanguage {
+                                      name
+                                      color
+                                  }
+                              }
+                          }
                       }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
                   }
-                }
               }
-            }
           }
-        `,
-      })
-      .then((result) => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
-        console.log(result);
-      });
+      `
+    })
+    .then((result) => {
+      setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+      console.log(result);
+    });
   }
 
   function setrepoFunction(array) {
@@ -76,7 +76,7 @@ export default function Projects() {
       <Button
         text={"More Projects"}
         className="project-button"
-        href="https://github.com/ShwetKhatri2001"
+        href="#"
         newTab={true}
       />
     </div>

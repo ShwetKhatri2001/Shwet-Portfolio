@@ -2,12 +2,15 @@
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
-  margin: 0px;
+  margin: 0;
+}
+.achievement-title {
+  text-transform: uppercase;
+  margin: 0 0 50px;
 }
 .achievement-subtitle {
   text-transform: uppercase;
-  margin: 0px;
-  margin-bottom: 50px;
+  margin: 0 0 50px;
 }
 .card-image {
   height: 250px;
@@ -17,7 +20,7 @@
 .card-title {
   color: black;
   font-size: 30px;
-  margin: 0px;
+  margin: 0;
   font-weight: 400;
   line-height: normal;
 }
@@ -29,7 +32,7 @@
 
 .certificate-card {
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
@@ -40,7 +43,7 @@
 }
 
 .certificate-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 20px 30px -10px;
 }
 .certificate-image-div {
   text-align: center;
@@ -64,7 +67,7 @@
 .certificate-card-footer > p:hover {
   color: #868e96;
 }
-
+/* Media Query */
 @media (max-width: 1380px) {
   .achievement-heading {
     font-size: 40px;

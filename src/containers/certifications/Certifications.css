@@ -1,7 +1,7 @@
 .certs-header {
   font-size: 40px;
   line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   text-align: center;
 }
 
@@ -9,6 +9,18 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.lottie-main{
+  padding: 20px;
+}
+
+.lottie{
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  float: left;
 }
 
 @media (max-width: 1380px) {

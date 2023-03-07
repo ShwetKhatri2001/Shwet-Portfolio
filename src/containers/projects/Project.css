@@ -15,6 +15,7 @@
   gap: 1rem 1rem;
 }
 
+/* Media Query */
 @media (max-width: 1380px) {
   .project-title {
     font-size: 40px;

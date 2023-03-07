@@ -1,5 +1,5 @@
 .education-main {
-  width: 100%;
+  width: 100vw;
 }
 
 .basic-education {
@@ -26,13 +26,14 @@
 
 .heading-img-div > * {
   max-width: 100%;
-  height: auto;
+  width: 500px;
+  height: 500px;
 }
 
 .heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   line-height: 1.1;
   text-align: center;
   margin-top: 100px;
@@ -40,7 +41,7 @@
 
 .heading-sub-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   text-align: center;
 }
 

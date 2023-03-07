@@ -6,12 +6,12 @@
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   font-size: 23px;
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   font-size: 18px;
   margin-top: 7px;
   margin-bottom: 5px;
@@ -32,7 +32,7 @@
 .body-header {
   max-width: inherit;
   display: flex;
-  border-radius: 7px 7px 0px 0px;
+  border-radius: 7px 7px 0 0;
   padding: 10px;
 }
 
@@ -45,7 +45,7 @@
   width: 20%;
 }
 .duration {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   font-size: 16px;
   padding-right: 10px;
   float: right;
@@ -53,7 +53,7 @@
 
 .body-content {
   max-width: inherit;
-  border-radius: 0px 0px 7px 7px;
+  border-radius: 0 0 7px 7px;
   padding: 5px;
   justify-content: center;
   align-items: center;
@@ -62,11 +62,10 @@
 .content-list {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .card-body {
-
   border-bottom: 1px solid #d9dbdf;
   border-left: 1px solid #d9dbdf;
   border-right: 1px solid #d9dbdf;
@@ -78,17 +77,16 @@
 
 .visit-btn {
   display: inline-block;
-  margin: 0px 10px 10px 10px;
+  margin: 0 10px 10px 10px;
   padding: 10px;
   border-radius: 7px;
-  border: 0px;
+  border: 0;
 }
 
-
 .btn {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Google Sans Regular";
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans Regular", serif;
 }
 
 @media (max-width: 1380px) {
@@ -114,8 +112,8 @@
   }
 
   .duration {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     float: left;
   }
 

@@ -25,7 +25,7 @@ class SoftwareSkill extends React.Component {
                       data-icon={logo.fontAwesomeClassname}
                       style={logo.style}
                       data-inline="false"
-                    ></span>
+                    />
                   </li>
                 </OverlayTrigger>
               );

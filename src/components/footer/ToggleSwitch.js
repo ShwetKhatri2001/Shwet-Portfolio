@@ -22,7 +22,7 @@ export const MoonSvg = styled.svg`
 export default class ToggleSwitch extends Component {
   render() {
     const theme = this.props.theme;
-    const isOn = this.props.theme === lightTheme ? false : true;
+    const isOn = this.props.theme !== lightTheme;
     const back = theme.text;
     const butt = theme.body;
     return (

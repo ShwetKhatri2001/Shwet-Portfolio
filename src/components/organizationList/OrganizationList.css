@@ -2,10 +2,7 @@
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px 50px 0;
   text-align: center;
 }
 
@@ -18,8 +15,7 @@
   display: inline-block;
   margin-right: 50px;
   margin-bottom: 50px;
-  /* border: 1px solid #000000; */
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .organizations-inline:hover {

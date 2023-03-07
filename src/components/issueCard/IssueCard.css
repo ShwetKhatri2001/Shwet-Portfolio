@@ -18,11 +18,11 @@
 
 .files-changed-text {
   text-align: right;
-  margin-top: 0px;
+  margin-top: 0;
   display: inline-block;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-size: 12px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   padding: 2px;
   color: #fff;
   border-radius: 10%;
@@ -30,11 +30,11 @@
 
 .files-changed-text-2 {
   display: inline-block;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 10px;
   font-size: 12px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .issue-header {
@@ -53,13 +53,14 @@
 .issue-title-header {
   width: 95%;
   display: inline-block;
+  float: right;
 }
 
 .issue-subtitle {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 10px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   color: #808080;
 }
 
@@ -69,9 +70,9 @@
   overflow: hidden;
   text-align: left;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-size: 16px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .issue-title > a {
@@ -113,7 +114,7 @@
 
 .assignee-repo {
   width: 90%;
-  margin-right: 0px;
+  margin-right: 0;
   display: inline-block;
 }
 
@@ -122,9 +123,8 @@
   text-overflow: ellipsis;
   overflow: hidden;
   text-align: left;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: "Google Sans Regular";
+  margin-bottom: 0;
+  font-family: "Google Sans Regular", serif;
   font-size: 12px;
   margin-top: 5px;
 }
@@ -141,20 +141,20 @@
 }
 
 .additions-files {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #28a745;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #4caf50;
   font-size: 14px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .deletions-files {
   margin-left: 8px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #d73a49;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #d32f2f;
   font-size: 14px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
 }
 
 .owner-img-div {
@@ -176,15 +176,15 @@
 }
 
 #tooltip-top > .tooltip-inner {
-  padding: 5px;
-  border-radius: 10px;
   background-color: #333;
   color: #fff;
-  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 1px 10px;
+  border: 1px solid #062e56;
 }
 
 #tooltip-top > .tooltip-arrow {
-  border-top: 5px solid #000;
+  border-top: 5px solid #062e56;
 }
 
 @media (max-width: 1380px) {
@@ -193,6 +193,8 @@
 @media (max-width: 768px) {
   .issue-card {
     width: 85%;
+    /* margin-left: 5%;
+        margin-right: 5%; */
   }
 
   .issue-top {

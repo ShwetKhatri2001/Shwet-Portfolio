@@ -12,8 +12,8 @@
 }
 
 .cert-header {
-  margin: 0px;
-  border-radius: 5px 5px 0px 0px;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .logo_img {
@@ -23,17 +23,17 @@
 }
 
 .cert-body {
-  margin: 0px;
+  margin: 0;
 }
 
 .cert-body-title {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   font-size: 20px;
   margin: 10px;
 }
 
 .cert-body-subtitle {
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   font-size: 18px;
   color: #808080;
   margin: 10px;
@@ -91,7 +91,7 @@
 .content-details h3 {
   color: #fff;
   font-weight: 500;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;

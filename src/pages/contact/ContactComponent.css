@@ -1,5 +1,5 @@
 .contact-main {
-  width: 100%;
+  width: 100vw;
 }
 
 .basic-contact {
@@ -37,10 +37,6 @@
   justify-content: center;
 }
 
-.contact-heading-img{
-  margin-left: 25%;
-}
-
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;
@@ -60,7 +56,8 @@
 
 .contact-heading-img-div > * {
   max-width: 100%;
-  height: auto;
+  width: 500px;
+  height: 500px;
 }
 
 .blog-heading-img-div > * {
@@ -68,10 +65,16 @@
   height: auto;
 }
 
+.address-heading-img-div > * {
+  max-width: 100%;
+  width: 500px;
+  height: 500px;
+}
+
 .contact-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   line-height: 1.1;
   text-align: center;
   margin-top: 60px;
@@ -80,7 +83,7 @@
 .blog-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
   line-height: 1.1;
   text-align: center;
   margin-top: 40px;
@@ -88,7 +91,7 @@
 
 .address-heading-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Regular", serif;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -99,7 +102,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
 }
 
 .blog-header-detail-text {
@@ -108,7 +111,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Medium", serif;
 }
 
 .resume-btn-div {
@@ -145,18 +148,12 @@
 @media (max-width: 768px) {
   .contact-heading-text {
     font-size: 30px;
-    margin-top: 0px;
-  }
-  .contact-heading-img{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10px;
+    margin-top: 0;
   }
 
   .blog-heading-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .address-heading-text {
@@ -187,16 +184,16 @@
 
   .contact-header-detail-text {
     font-size: 16px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     line-height: normal;
     text-align: center;
   }
 
   .blog-header-detail-text {
     font-size: 16px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     line-height: normal;
     text-align: center;
   }
