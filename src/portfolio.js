@@ -259,7 +259,7 @@ const experience = {
           title: "Software Developer Intern",
           company: "CloudBloq",
           company_url: "https://cloudbloq.io/",
-          logo_path: "delhivery_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "Feb 2021 - Sept 2021",
           location: "Remote",
           description:
@@ -270,7 +270,7 @@ const experience = {
           title: "Full Stack Web Developer Intern",
           company: "WedMePlz",
           company_url: "https://wedmeplz.com/",
-          logo_path: "delhivery_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "May 2021 - Nov 2021",
           location: "Remote",
           description:
@@ -297,7 +297,7 @@ const experience = {
           title: "LFX Mentee Summer'22",
           company: "Linux Foundation",
           company_url: "https://lfx.linuxfoundation.org/tools/mentorship/",
-          logo_path: "legato_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "July 2021 - Aug 2021",
           location: "Remote",
           description:
@@ -308,7 +308,7 @@ const experience = {
           title: "Open Source Contributor - LGMSOC",
           company: "LetsGrowMore",
           company_url: "https://letsgrowmore.in/soc/",
-          logo_path: "legato_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "July 2021 - Aug 2021",
           location: "Remote",
           description:
@@ -320,7 +320,7 @@ const experience = {
             "Open Source Contributor - Devincept 30-Days Contribution Program",
           company: "Devincept",
           company_url: "https://dcp.devincept.com/DCP21/top-performers.html",
-          logo_path: "legato_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "June 2021 - Aug 2021",
           location: "Remote",
           description:
@@ -331,7 +331,7 @@ const experience = {
           title: "Open Source Contributor - Winter of Code",
           company: "GDSC NSEC",
           company_url: "https://winterofcode.com/",
-          logo_path: "legato_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "Nov 2021 - Jan 2022",
           location: "Remote",
           description:
@@ -342,7 +342,7 @@ const experience = {
           title: "Open Source Contributor - Winter of Code 2.0",
           company: "GDSC IIIT Kalyani",
           company_url: "https://gdsc-woc.tech/",
-          logo_path: "legato_logo.png",
+          logo_path: "microsoft_logo.png",
           duration: "Oct 2021 - Jan 2022",
           location: "Remote",
           description:
