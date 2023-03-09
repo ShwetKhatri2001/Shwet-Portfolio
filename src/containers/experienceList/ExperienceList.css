@@ -1,0 +1,39 @@
+.experience-container {
+  width: 90%;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.experience-container > * {
+  flex: 1;
+}
+
+.experience-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem 1rem;
+  margin-bottom: 100px;
+}
+
+.experience-heading {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+@media (max-width: 1380px) {
+  .experience-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-heading {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .experience-cards-div {
+    margin-top: 50px;
+  }
+}

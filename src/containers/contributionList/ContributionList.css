@@ -1,0 +1,38 @@
+.contribution-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tabs-container {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+}
+
+.tab {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.tab .tab-title {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular", serif;
+  text-align: center;
+}
+
+@media (max-width: 1380px) {
+  .tab .tab-title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tab .tab-title {
+    font-size: 25px;
+  }
+}

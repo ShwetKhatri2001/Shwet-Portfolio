@@ -81,10 +81,12 @@
   }
 
   .skills-image-div {
+    height: 300px;
     order: 2;
   }
 
   .skills-image-div > * {
     margin-top: 0;
+    height: 300px;
   }
 }

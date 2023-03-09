@@ -8,37 +8,43 @@ import fs from "fs";
 
 const query_pr = {
   query: `
-      query {
-        user(login: "${openSource.githubUserName}"){
-          pullRequests(last: 100, orderBy: {field: CREATED_AT, direction: DESC}){
-        totalCount
-        nodes{
-          id
-          title
-          url
-          state
+  query{
+    search(
+      query: "type:pr author:${openSource.githubUserName}"
+      type: ISSUE
+      last: 100
+    ) {
+      issueCount
+      edges {
+        node {
+          ... on PullRequest {
+            id
+            title
+            url
+            state
             mergedBy {
-                avatarUrl
-                url
-                login
+              avatarUrl
+              url
+              login
             }
             createdAt
             number
-          changedFiles
+            changedFiles
             additions
             deletions
-          baseRepository {
-                name
+            baseRepository {
+              name
+              url
+              owner {
+                avatarUrl
+                login
                 url
-                owner {
-                  avatarUrl
-                  login
-                  url
-                }
               }
+            }
+          }
         }
       }
-      }
+    }
   }
       `,
 };
@@ -135,10 +141,10 @@ fetch(baseUrl, {
 })
   .then((response) => response.text())
   .then((txt) => {
-    console.log(txt);
     const data = JSON.parse(txt);
     var cropped = { data: [] };
-    cropped["data"] = data["data"]["user"]["pullRequests"]["nodes"];
+    var edges = data["data"]["search"]["edges"];
+    cropped["data"] = edges.map((edge) => edge.node);
 
     var open = 0;
     var closed = 0;

@@ -31,7 +31,7 @@ export default function Contact() {
         <div className="contact-image-div">
           <img
             alt="Contact"
-            src={require("../../assets/images/contactMail.png")}
+            src={require("../../assets/images/contactMail.png").default}
           />
         </div>
       </div>

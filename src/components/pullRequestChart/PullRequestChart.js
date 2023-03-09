@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Doughnut } from "react-chartjs-2";
 import { Fade } from "react-reveal";
 import "./PullRequestChart.css";
-import PullRequestData from "../../shared/opensource/pull_requests.json";
+// import PullRequestData from "../../shared/opensource/pull_requests.json";
 
 class PullRequestChart extends Component {
   render() {
@@ -11,9 +11,10 @@ class PullRequestChart extends Component {
       datasets: [
         {
           data: [
-            PullRequestData["open"],
-            PullRequestData["merged"],
-            PullRequestData["closed"],
+            // PullRequestData["open"],
+            // PullRequestData["merged"],
+            // PullRequestData["closed"],
+            13, 108, 7,
           ],
           backgroundColor: ["#4CAF50", "#673AB7", "#FF5252"],
           hoverBackgroundColor: ["#4CAF50", "#673AB7", "#FF5252"],
