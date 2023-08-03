@@ -73,6 +73,7 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
+  min-height: 50px;
 }
 
 .repo-details {
@@ -98,6 +99,7 @@
 
   .repo-description {
     font-size: 14px;
+    min-height: 25px;
   }
 
   .repo-details {

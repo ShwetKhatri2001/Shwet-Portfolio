@@ -2,7 +2,7 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import avatar from "../../assets/images/shwetphoto.png";
+import avatar from "../../assets/images/shwetpic.png";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";

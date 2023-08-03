@@ -257,14 +257,14 @@ const experience = {
       experiences: [
         {
           title: "WebXR Developer Intern",
-          company: "Data with D",
-          company_url: "https://www.datawithd.com/",
-          logo_path: "datawithd_logo.png",
-          duration: "Nov 2023 - Mar 2023",
+          company: "JAR4U",
+          company_url: "https://www.jar4u.com/",
+          logo_path: "jar4u_logo.jpg",
+          duration: "Oct 2023 - Mar 2023",
           location: "Remote",
           description:
-            "Implemented AR experience with hand-tracking for the photorealistic 3d jewellery models using ThreeJS, Mediapipe and Camera Controller packages. Built the webpages for the same product's display and experience using ReactJS and AWS",
-          color: "#14213d",
+            "Implemented the AR experience enabled with hand-tracking for the photorealistic 3D jewellery models using ThreeJS, Mediapipe and Camera Controller packages. Built frontend webpages describing the product on their official website using NextJS",
+          color: "#e85b30",
         },
         {
           title: "Software Developer Intern",
@@ -305,9 +305,22 @@ const experience = {
       title: "Open source Participations",
       experiences: [
         {
+          title: "XROS Fellow Summer'23",
+          company: "Osenorth",
+          company_url:
+            "https://drive.google.com/file/d/1mpfA3-PV2yp4N4XLtXMFsvnE0sc9IR6l/view",
+          logo_path: "xros_logo.jpg",
+          duration: "July 2021 - Aug 2021",
+          location: "Remote",
+          description:
+            "I was accepted as one of the top 100 Indian Developers selected for the XR Open Source Fellowship 2023 and worked on an open-source project called AR Personal Assistant and built one of the services called Virtual (AR) Fitness Trainer",
+          color: "#886cfa",
+        },
+        {
           title: "LFX Mentee Summer'22",
           company: "Linux Foundation",
-          company_url: "https://lfx.linuxfoundation.org/tools/mentorship/",
+          company_url:
+            "https://medium.com/@shwetkhatri/my-journey-in-lfx-mentorship-program-summer22-39d861c97313",
           logo_path: "lfx_logo.png",
           duration: "July 2021 - Aug 2021",
           location: "Remote",
@@ -376,7 +389,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "shwetphoto.png",
+    profile_image_path: "shwetpic.png",
     description:
       "I am available on many social media platforms. Feel free to message me, I will reply within 24 hours. I can help you with  React, Node and Opensource Development.",
   },
